@@ -7,13 +7,18 @@ In the second deliverable, the weather data from first deliverable will be used 
 
 
 step 1: import the necessary dependencies (libraries)
+
 step 2: Generate the Cities list by Using the 'citipy Library' in the range of latitudes and longitudes. A total of 626 citeis
  were generated using the 'for loop'
  
  
 # Requirement 1: Create Plots to Showcase the Relationship Between Weather Variables and Latitude
 
-step 3: Retrieve weather data from the cities list generated [open weather map](https://openweathermap.org/api). For this step, need to obtain the base URL from [open weather map](https://openweathermap.org/api), the unit [metric] and for  loop is used to generate the cities with error exception.
+step 3: Retrieve weather data from the cities list generated [open weather map](https://openweathermap.org/api). For this step, need to obtain the base URL from [open 
+
+weather map](https://openweathermap.org/api), the unit [metric] and for  loop is used to generate the cities with error exception.
+
+
 step 4: Convert the city data into pnadas dataframe
 
 Here are sample of the dataframe:
@@ -36,6 +41,7 @@ scatter plots were ploted latitude vs temperature, latitude vs humidity, latitud
 ![image](https://user-images.githubusercontent.com/118146659/227725929-f8f1edd6-3faf-46ad-a6e3-48398d74fc5b.png)
 
 Compute Linear Regression for Each Relationship to determine for any correlation between weather parameters and the northern and southern hemispheres 
+
 step 6:  Afunction was defined  to create Linear Regression plots
 The city data was filtered in to the northern and southern hemisphere cities based on their latitude from the equator (latitude = 0)
 
@@ -56,6 +62,8 @@ Northern hemisphere max_temp vs latitude plot
 ![image](https://user-images.githubusercontent.com/118146659/227726619-fb009f99-7f24-4a9a-b8fe-e65f6a6f7ccf.png)
 
 Southern hemisphere max_temp vs latitude plot
+
+
 ![image](https://user-images.githubusercontent.com/118146659/227726777-0948155d-8cd5-4160-9a9c-22ecdb970cf4.png)
 
 
