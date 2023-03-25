@@ -33,17 +33,31 @@ scatter plots were ploted latitude vs temperature, latitude vs humidity, latitud
 
 ![image](https://user-images.githubusercontent.com/118146659/227725929-f8f1edd6-3faf-46ad-a6e3-48398d74fc5b.png)
 
-#Compute Linear Regression for Each Relationship to determine for any correlation between weather parameters and the northern and southern hemispheres 
+Compute Linear Regression for Each Relationship to determine for any correlation between weather parameters and the northern and southern hemispheres 
 step 6:  Afunction was defined  to create Linear Regression plots
 The city data was filtered in to the northern and southern hemisphere cities based on their latitude from the equator (latitude = 0)
 
-#Norther hemisphere cities sample dataframe:
+Northern hemisphere cities sample dataframe:
 
 ![image](https://user-images.githubusercontent.com/118146659/227726313-f60d2ee9-c3f9-49e6-a5ac-410251721041.png)
 
-souther hemisphere countries sample dataframe
+Southern hemisphere cities sample dataframe
 
 ![image](https://user-images.githubusercontent.com/118146659/227726358-3b131d60-7978-4bfa-bab2-2bc33bcb052b.png)
+
+The following are the linear regression plots for weather condition parameters with personal reflections. 
+Only the temperature vs latitude for the northern and southern hemispheres are shown here. The rest of the data
+is in the submission
+
+Northern hemisphere max_temp vs latitude plot
+
+![image](https://user-images.githubusercontent.com/118146659/227726619-fb009f99-7f24-4a9a-b8fe-e65f6a6f7ccf.png)
+
+Southern hemisphere max_temp vs latitude plot
+![image](https://user-images.githubusercontent.com/118146659/227726777-0948155d-8cd5-4160-9a9c-22ecdb970cf4.png)
+
+
+
 
 
 
