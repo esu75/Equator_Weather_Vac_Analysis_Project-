@@ -16,6 +16,8 @@ step 2: Generate the Cities list by Using the 'citipy Library' in the range of l
 step 3: Retrieve weather data from the cities list generated [open weather map](https://openweathermap.org/api). For this step, need to obtain the base URL from [open weather map](https://openweathermap.org/api), the unit [metric] and for  loop is used to generate the cities with error exception.
 step 4: Convert the city data into pnadas dataframe
 
+Here are sample of the dataframe:
+
 ![image](https://user-images.githubusercontent.com/118146659/227725353-151d3e17-a932-4612-bbfc-04078cf87d18.png)
 
 step 5: Saved the city data in csv format
@@ -55,6 +57,32 @@ Northern hemisphere max_temp vs latitude plot
 
 Southern hemisphere max_temp vs latitude plot
 ![image](https://user-images.githubusercontent.com/118146659/227726777-0948155d-8cd5-4160-9a9c-22ecdb970cf4.png)
+
+
+The second part of this project is to read the cities.csv file previously created and saved for the 626 cities.
+Once, the csv file is loaded, create a map that displays a point for every city in the  DataFrame. The size of the point should be the humidity in each city.
+
+![image](https://user-images.githubusercontent.com/118146659/227727122-a6046f11-5913-4cd8-8e63-ed2b0c342ce1.png)
+
+The cities data is further filetered down to  ideal vacation weather condition. My personal ideal weather condition are
+
+![image](https://user-images.githubusercontent.com/118146659/227727296-b8a60a3a-7caa-4bce-b98d-e66c1e8610dc.png)
+
+Once the ideal vacation weather condition is determined, the next step is to search a hotel within a certain radius from each latitude and longitude
+values of these cities. Tod this, first create another column for 'hotel' and create a dataframe:
+
+![image](https://user-images.githubusercontent.com/118146659/227727547-66b64a56-e19e-415d-92b7-4fb1b0679730.png)
+
+For each city, use the Geoapify API to find the first hotel located within 10,000 metres of the coordinates
+set parameters to search for the hotel within 10,000 meters radius 
+convert the list of cities into pandas dataframe:
+
+![image](https://user-images.githubusercontent.com/118146659/227727751-1069eafc-5035-4bcb-8719-c611a73113ce.png)
+
+finally, create a map of hotel names and the country as additional information in the hover message for each city in the map
+
+![image](https://user-images.githubusercontent.com/118146659/227727828-d041820c-47c2-4eef-93a7-a3cce8623a18.png)
+
 
 
 
