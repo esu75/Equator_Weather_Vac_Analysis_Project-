@@ -20,7 +20,8 @@ step 4: Convert the city data into pnadas dataframe
 
 step 5: Saved the city data in csv format
 
-#Create the Scatter Plots Requested
+Create the Scatter Plots Requeste
+---------------------------------
 
 #scatter plots were ploted latitude vs temperature, latitude vshumidity, latitude vscloudiness, and latitude vswind speed
  
