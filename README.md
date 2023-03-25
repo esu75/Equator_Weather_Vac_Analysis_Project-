@@ -7,5 +7,5 @@ In the second deliverable, the weather data from first deliverable will be used 
 step 1: import the necessary dependencies (libraries)
 step 2: Generate the Cities list by Using the 'citipy Library' in the range of latitudes and longitudes. A total of 626 citeis
  were generated using the 'for loop'
- Requirement 1: Create Plots to Showcase the Relationship Between Weather Variables and Latitude
- -----------------------------------------------------------------------------------------------
+# Requirement 1: Create Plots to Showcase the Relationship Between Weather Variables and Latitude
+ 
