@@ -13,5 +13,14 @@ step 2: Generate the Cities list by Using the 'citipy Library' in the range of l
  
 # Requirement 1: Create Plots to Showcase the Relationship Between Weather Variables and Latitude
 
+step 3: Retrieve weather data from the cities list generated [open weather map](https://openweathermap.org/api). For this step, need to obtain the base URL from [open weather map](https://openweathermap.org/api), the unit [metric] and for  loop is used to generate the cities with error exception.
+step 4: Convert the city data into pnadas dataframe
 
+![image](https://user-images.githubusercontent.com/118146659/227725353-151d3e17-a932-4612-bbfc-04078cf87d18.png)
+
+step 5: Saved the city data in csv format
+
+#Create the Scatter Plots Requested
+
+#scatter plots were ploted latitude vs temperature, latitude vshumidity, latitude vscloudiness, and latitude vswind speed
  
